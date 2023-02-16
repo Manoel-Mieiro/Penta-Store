@@ -98,7 +98,7 @@ let update = (id) => {
 
 let removeItem = (id) =>{
     let selectedItem = id;
-    basket = basket.filter((x) => x.id !== selectedItem).id;
+    basket = basket.filter((x) => x.id !== selectedItem.id);
     total();
     generateCartItems();
     TotalAmount();
