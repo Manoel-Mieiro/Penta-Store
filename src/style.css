@@ -1,8 +1,7 @@
-/* 
-Paleta do projeto:
-https://coolors.co/palette/d6d9ce-f3dad8-f4c3c2-f1b5cb-e88eed 
-*/
 
+/*
+Paleta verde:
+https://coolors.co/palette/007f5f-2b9348-55a630-80b918-aacc00-bfd200-d4d700-dddf00-eeef20-ffff3f
 /*
 Icons:
 https://icons.getbootstrap.com/icons/cart-fill/
@@ -16,6 +15,7 @@ https://icons.getbootstrap.com/icons/cart-fill/
 
 body{
     font-family: sans-serif;
+    background-color: #FFFF3F;
 }
 
 i{
@@ -32,15 +32,15 @@ a{
     justify-content: space-between;
     align-items: center;
     color: white;
-    background-color: #f1b5cb;
+    background-color: #007F5F;
     padding: 25px 60px;
     margin-bottom: 30px;
 }
 
 .cart{
     position: relative;
-    background-color: #fff;
-    color: #f1b5cb;
+    background-color: #FFFF3F;
+    color: #007F5F;
     padding: 5px;
     font-size: 30px;
     border-radius: 4px;
@@ -54,7 +54,7 @@ a{
     border-radius: 3px;
     color: white;
     font-size: 16px;
-    background-color: #E88EED;
+    background-color: #BFD200;
 }
 
 /*Intens style below*/
@@ -79,8 +79,9 @@ a{
 }
 
 .item{
-    border: 2px solid #E88EED;
+    border: 2px solid #55A630;
     border-radius: 4px;
+    background-color: #fff;
 }
 
 .details{
@@ -102,22 +103,23 @@ a{
 }
 
 .bi-dash-lg{
-    color: #F4C3C2;
+    color: #AACC00;
 }
 
 .bi-plus-lg{
-    color:#f1b5cb;
+    color:#007F5F;
 }
 
 .text-center{
     text-align: center;
     margin-bottom: 20px;
+    color:#007F5F;
 }
 
 .Home, 
 .checkout,
 .removeAll{
-    background-color: #E88EED;
+    background-color: #007F5F;
     color:white;
     border: none;
     padding: 6px;
@@ -127,15 +129,15 @@ a{
 }
 
 .checkout{
-    background-color: #f1b5cb;
+    background-color: #55A630;
 }
 
 .removeAll{
-    background-color: #F4C3C2;
+    background-color: #007F5F;
 }
 
 .bi-x-lg{
-    color:#E88EED;
+    color:#007F5F;
     font-weight: bold;
 }
 
@@ -147,7 +149,7 @@ a{
 }
 
 .cart-item{
-    border: 2px solid #E88EED;
+    border: 2px solid #55A630;
     border-radius: 5px;
     display: flex;
 }
@@ -166,7 +168,7 @@ a{
 }
 
 .cart-item-price{
-    background-color: #E88EED;
+    background-color: #80B918;
     color: white;
     border-radius: 4px;
 }
