@@ -19,7 +19,7 @@ if(basket.length !== 0){
             let{img, price, name} = search;
             return `
     <div class="cart-item">
-        <img width="100" src=${img} alt="Imagem"/>
+        <img class="cart-img" src=${img} alt="Imagem"/>
         <div class ="details">
 
             <div class="title-price-x">
