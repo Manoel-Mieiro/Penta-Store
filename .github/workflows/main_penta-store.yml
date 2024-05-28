@@ -21,7 +21,7 @@ jobs:
     - name: Set up Node.js version
       uses: actions/setup-node@v1
       with:
-        node-version: '20LTS'
+        node-version: '16-lts'
 
     - name: npm install, build, and test
       run: |
@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: Penta-Store
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D39CBE4EEFE34A2F836C0BD1601FD057 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A2A837855870413B9DB57DBAA79D2451 }}
         package: .
 
